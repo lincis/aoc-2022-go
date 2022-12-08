@@ -92,7 +92,6 @@ func directorySize(tree map[string]directory) map[string]int {
 func One(in []string) int {
 	tree := parseTree(in)
 	// fmt.Println(tree)
-	// spew.Dump(tree)
 	// fmt.Println(len(tree))
 	sizes := directorySize(tree)
 	fmt.Println(len(sizes))
